@@ -13,7 +13,7 @@ https://www.youtube.com/watch?v=3Vf-nX3JOTQ
 ## Getting Started
 You'll need an ESP8266-NodeMCU, and OLED Screen (I used the 128x64) 4 female/female jumper cables, USB cable for power and data to ESP8266.
 
-The attacked .ino file will get you up and running. The provided data_display_oled.jpg file shows how the data will be displayed on the OLED.
+The attached .ino file will get you up and running. The provided jpeg file: data_display_oled.jpg shows how the data will be displayed on the OLED.
 
 Good Luck...
 
