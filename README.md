@@ -18,3 +18,13 @@ The attached .ino file will get you up and running. The provided jpeg file: data
 Good Luck...
 
 
+
+
+Version 2: April 08, 2020
+
+Made extensive changes to the code and functionaliry:
+	Added a button to trigger the updating of data. Earlier version was too invasive on the data source website. With the help of a button and restricting data updates to once every hour (between button clicks) - data is now fetched ONLY on demand.
+While the OLED screen is waiting for a "button click"/request for data - a screen saver kicks in with the text "Press button to update". This text scrolls around randomly across the screen.
+An interrup service routine traps the click of the button and processes the request - either displays the cached data (if less than 1 hr has elapsed since last refresh of data) or gets updated data if more than 1 hr has elapsed since last update.
+
+2 pictures show the new screen and breadboard connections.
